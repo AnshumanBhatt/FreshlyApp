@@ -9,24 +9,25 @@ import SwiftUI
 
 struct RoundButton: View {
     @State var title: String = "Title"
-    var didTap: (() -> ())?
+    var didTap: (()->())?
     var body: some View {
-        Button(action: {
+        Button {
             didTap?()
-            
-        }, label: {
-            Text("Get Started")
+        } label: {
+            Text(title)
                 .font(.customfont(.semibold, fontSize: 18))
                 .foregroundColor(.white)
-            multilineTextAlignment(.center)
-        })
+                .multilineTextAlignment(.center)
+        }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60)
         .background(Color.primaryApp)
         .cornerRadius(20)
     }
 }
 
-#Preview {
-    RoundButton()
-        .padding(20)
+struct RoundButton_Previews:PreviewProvider {
+    static var previews: some View{
+        RoundButton()
+            .padding(20)
+    }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023797D42D1C5CC4000475B0 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023797D32D1C5CC4000475B0 /* SignInView.swift */; };
 		02919DEF2CEF81BD00424DB9 /* FreshlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919DEE2CEF81BD00424DB9 /* FreshlyApp.swift */; };
 		02919DF32CEF81C100424DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02919DF22CEF81C100424DB9 /* Assets.xcassets */; };
 		02919DF62CEF81C100424DB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02919DF52CEF81C100424DB9 /* Preview Assets.xcassets */; };
@@ -17,11 +18,10 @@
 		02919E1E2CEF82BE00424DB9 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02919E1A2CEF82BE00424DB9 /* Gilroy-Medium.ttf */; };
 		02919E1F2CEF82BE00424DB9 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02919E1B2CEF82BE00424DB9 /* Gilroy-Bold.ttf */; };
 		02919E202CEF82BE00424DB9 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02919E1C2CEF82BE00424DB9 /* Gilroy-SemiBold.ttf */; };
-		02919E282CEF861000424DB9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919E272CEF861000424DB9 /* WelcomeView.swift */; };
 		02919E2B2CEF867100424DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02919E2A2CEF867100424DB9 /* LaunchScreen.storyboard */; };
 		02919E2D2CEF978800424DB9 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919E2C2CEF978800424DB9 /* UIExtension.swift */; };
 		02919E2F2CEFBABD00424DB9 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919E2E2CEFBABD00424DB9 /* RoundButton.swift */; };
-		02919E312CEFBB7C00424DB9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919E302CEFBB7C00424DB9 /* SignInView.swift */; };
+		02FC26742D1DAC1300C958D8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC26732D1DAC1300C958D8 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023797D32D1C5CC4000475B0 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		02919DEB2CEF81BD00424DB9 /* Freshly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freshly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02919DEE2CEF81BD00424DB9 /* FreshlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshlyApp.swift; sourceTree = "<group>"; };
 		02919DF22CEF81C100424DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,11 +57,10 @@
 		02919E1B2CEF82BE00424DB9 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 		02919E1C2CEF82BE00424DB9 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		02919E212CEF84F600424DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		02919E272CEF861000424DB9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		02919E2A2CEF867100424DB9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02919E2C2CEF978800424DB9 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		02919E2E2CEFBABD00424DB9 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		02919E302CEFBB7C00424DB9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		02FC26732D1DAC1300C958D8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +195,8 @@
 		02919E262CEF85FC00424DB9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				02919E272CEF861000424DB9 /* WelcomeView.swift */,
-				02919E302CEFBB7C00424DB9 /* SignInView.swift */,
+				023797D32D1C5CC4000475B0 /* SignInView.swift */,
+				02FC26732D1DAC1300C958D8 /* WelcomeView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -336,11 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FC26742D1DAC1300C958D8 /* WelcomeView.swift in Sources */,
 				02919E2F2CEFBABD00424DB9 /* RoundButton.swift in Sources */,
 				02919DEF2CEF81BD00424DB9 /* FreshlyApp.swift in Sources */,
 				02919E2D2CEF978800424DB9 /* UIExtension.swift in Sources */,
-				02919E282CEF861000424DB9 /* WelcomeView.swift in Sources */,
-				02919E312CEFBB7C00424DB9 /* SignInView.swift in Sources */,
+				023797D42D1C5CC4000475B0 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
